@@ -1,0 +1,94 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50110</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{87FC3386-91A4-41B9-A04F-57CAB2BAC0BB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PythonNet</RootNamespace>
+    <AssemblyName>PythonNet</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="arrayobject.cs" />
+    <Compile Include="assemblyinfo.cs" />
+    <Compile Include="assemblymanager.cs" />
+    <Compile Include="classbase.cs" />
+    <Compile Include="classmanager.cs" />
+    <Compile Include="classobject.cs" />
+    <Compile Include="clrobject.cs" />
+    <Compile Include="codegenerator.cs" />
+    <Compile Include="constructorbinder.cs" />
+    <Compile Include="converter.cs" />
+    <Compile Include="debughelper.cs" />
+    <Compile Include="delegatemanager.cs" />
+    <Compile Include="delegateobject.cs" />
+    <Compile Include="eventbinding.cs" />
+    <Compile Include="eventobject.cs" />
+    <Compile Include="exceptions.cs" />
+    <Compile Include="extensiontype.cs" />
+    <Compile Include="fieldobject.cs" />
+    <Compile Include="importhook.cs" />
+    <Compile Include="indexer.cs" />
+    <Compile Include="interfaceobject.cs" />
+    <Compile Include="interop.cs" />
+    <Compile Include="ipythonconvertable.cs" />
+    <Compile Include="iterator.cs" />
+    <Compile Include="managedtype.cs" />
+    <Compile Include="metatype.cs" />
+    <Compile Include="methodbinder.cs" />
+    <Compile Include="methodbinding.cs" />
+    <Compile Include="methodobject.cs" />
+    <Compile Include="methodwrapper.cs" />
+    <Compile Include="moduleobject.cs" />
+    <Compile Include="nativecall.cs" />
+    <Compile Include="propertyobject.cs" />
+    <Compile Include="pydict.cs" />
+    <Compile Include="pyfloat.cs" />
+    <Compile Include="pyint.cs" />
+    <Compile Include="pylist.cs" />
+    <Compile Include="pylong.cs" />
+    <Compile Include="pynumber.cs" />
+    <Compile Include="pyobject.cs" />
+    <Compile Include="pysequence.cs" />
+    <Compile Include="pystring.cs" />
+    <Compile Include="pythonengine.cs" />
+    <Compile Include="pythonexception.cs" />
+    <Compile Include="pytuple.cs" />
+    <Compile Include="runtime.cs" />
+    <Compile Include="typemanager.cs" />
+    <Compile Include="typemethod.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="clrmodule.il" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
+</Project>

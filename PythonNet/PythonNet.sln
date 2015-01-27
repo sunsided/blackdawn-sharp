@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PythonNet", "PythonNet\PythonNet.csproj", "{87FC3386-91A4-41B9-A04F-57CAB2BAC0BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{0F9718CB-1477-48D3-AEA2-75800A595907}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87FC3386-91A4-41B9-A04F-57CAB2BAC0BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87FC3386-91A4-41B9-A04F-57CAB2BAC0BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87FC3386-91A4-41B9-A04F-57CAB2BAC0BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87FC3386-91A4-41B9-A04F-57CAB2BAC0BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F9718CB-1477-48D3-AEA2-75800A595907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F9718CB-1477-48D3-AEA2-75800A595907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F9718CB-1477-48D3-AEA2-75800A595907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F9718CB-1477-48D3-AEA2-75800A595907}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

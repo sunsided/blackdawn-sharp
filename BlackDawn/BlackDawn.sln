@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{63446037-C64E-49C5-BC74-6D699BD69E8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackDawn.Datatypes", "BlackDawn.Datatypes\BlackDawn.Datatypes.csproj", "{5F4AC090-E1FF-4D86-8B69-04A6ED3A7AFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackDawn.Triggers", "BlackDawn.Triggers\BlackDawn.Triggers.csproj", "{B4BF4F80-A401-4762-BA9D-4CD95763F0A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackDawn.Optimizer", "BlackDawn.Optimizer\BlackDawn.Optimizer.csproj", "{9E12FCA9-0165-4DCD-9927-43344DAAC96C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackDawnManager", "BlackdawnManager\BlackDawnManager.csproj", "{0C692905-3E38-423C-BC8D-AF0F234BACD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63446037-C64E-49C5-BC74-6D699BD69E8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63446037-C64E-49C5-BC74-6D699BD69E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63446037-C64E-49C5-BC74-6D699BD69E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63446037-C64E-49C5-BC74-6D699BD69E8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F4AC090-E1FF-4D86-8B69-04A6ED3A7AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F4AC090-E1FF-4D86-8B69-04A6ED3A7AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F4AC090-E1FF-4D86-8B69-04A6ED3A7AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F4AC090-E1FF-4D86-8B69-04A6ED3A7AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4BF4F80-A401-4762-BA9D-4CD95763F0A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4BF4F80-A401-4762-BA9D-4CD95763F0A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4BF4F80-A401-4762-BA9D-4CD95763F0A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4BF4F80-A401-4762-BA9D-4CD95763F0A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E12FCA9-0165-4DCD-9927-43344DAAC96C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E12FCA9-0165-4DCD-9927-43344DAAC96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E12FCA9-0165-4DCD-9927-43344DAAC96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E12FCA9-0165-4DCD-9927-43344DAAC96C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C692905-3E38-423C-BC8D-AF0F234BACD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C692905-3E38-423C-BC8D-AF0F234BACD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C692905-3E38-423C-BC8D-AF0F234BACD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C692905-3E38-423C-BC8D-AF0F234BACD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
